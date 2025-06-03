@@ -259,7 +259,7 @@ void finish_line(){
   {
     
     freeze(200);
-    readLED_finish();
+    readLED_finish(); 
     reflexive_l=0;reflexive_r=0;
 
     if (rl < 600 && gl < 800 && bl < 600)reflexive_l=1;

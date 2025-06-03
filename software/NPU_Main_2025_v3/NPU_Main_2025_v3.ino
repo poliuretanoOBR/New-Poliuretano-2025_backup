@@ -437,9 +437,8 @@ void setup() {
 void loop() {
   if (millis() - flag_loop > 10) {
     
-    while (0) { 
- 
-      
+    while (1) { 
+      walk(SWL,SWR);
       // Serial.println(getUltra(4));
       // delay(100);
       // readLED();

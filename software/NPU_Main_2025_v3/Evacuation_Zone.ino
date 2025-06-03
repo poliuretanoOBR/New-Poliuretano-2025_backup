@@ -1,7 +1,7 @@
 int sharp_left, sharp_right;
 void Evacuation_Zone()
 {
-    //ver se tem bola
+    //look for the victims
 
     //medir sharps
     sharp_left = getmsharp(10);
